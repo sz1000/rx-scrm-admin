@@ -1,0 +1,443 @@
+// @import './reset.less';
+
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  // font-family: PingFangSC-Regular, PingFang SC;
+  margin: 0;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Microsoft YaHei", "微软雅黑", "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", Arial, sans-serif;
+  font-weight: 400;
+  // line-height: 1; 
+  font-size: inherit;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+
+  &::-webkit-scrollbar {
+    // display: none;
+    height: 0;
+    width: 0;
+  }
+
+  scrollbar-width: none;
+}
+
+#app {
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.no-padding {
+  padding: 0px !important;
+}
+
+.padding-content {
+  padding: 4px 0;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+div:focus {
+  outline: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.al_center {
+  align-items: center;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.fr {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+.pr-5 {
+  padding-right: 5px;
+}
+
+.pl-5 {
+  padding-left: 5px;
+}
+
+.block {
+  display: block;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.inlineBlock {
+  display: inline-block;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+aside {
+  background: #eef1f6;
+  padding: 8px 24px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  display: block;
+  line-height: 32px;
+  font-size: 16px;
+  color: #2c3e50;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  a {
+    color: #337ab7;
+    cursor: pointer;
+
+    &:hover {
+      color: rgb(32, 160, 255);
+    }
+  }
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+// 表格样式
+.el-table {
+
+  &.bd {
+
+    th,
+    td {
+      border-bottom: 1px solid #EBEEF5 !important;
+    }
+  }
+
+  th,
+  td {
+    border-bottom: none !important;
+  }
+
+  .el-table__empty-text {
+    .empty {
+      padding-top: 150px !important;
+    }
+  }
+
+  .el-table__fixed-right {
+    &::before {
+      width: 0;
+    }
+  }
+}
+
+//删除时confirm按钮样式
+.el-message-box {
+  .cancelBtn {
+    background: #fff;
+    color: #838A9D;
+  }
+
+  .sureBtn {
+    background: #D14343;
+    color: #fff;
+    border-color: #D14343;
+  }
+}
+
+
+//新增企业活码/群活吗中的 渠道菜单
+.channelStyle {
+  li {
+    color: #838A9D;
+  }
+
+  .el-input {
+    .el-input__inner {
+      width: 374px;
+      height: 32px;
+      background: rgba(65, 104, 246, 0.04);
+      box-shadow: 0px 3px 40px 0px rgba(0, 0, 0, 0.04);
+      border-radius: 4px;
+    }
+  }
+
+  .channelBtn {
+    color: #4168f6;
+    padding-left: 32px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+
+  .addinput {
+    text-align: center;
+    border-top: 1px solid #eef1f6;
+    padding-top: 10px;
+  }
+}
+
+.channelMenu {
+  width: 406px;
+  height: 300px;
+  overflow-y: scroll;
+  .channelStyle()
+}
+
+.channelGroupMenu {
+  width: 350px;
+  height: 300px;
+  overflow-y: scroll;
+
+  .el-input__inner {
+    width: 310px !important;
+  }
+
+  .channelStyle()
+}
+
+.clueConfirmClass {
+  .el-message-box__btns {
+    .el-button--primary {
+      background-color: #4168f6;
+      margin-top: -10px;
+    }
+  }
+}
+
+.remindicon {
+  .el-message-box__content {
+    .el-message-box__message {
+      padding-right: 0;
+    }
+
+    .el-icon-warning {
+      color: #4168f6;
+    }
+  }
+
+  .el-message-box__btns {
+    .el-button--primary {
+      background-color: #4168f6;
+    }
+  }
+}
+
+
+
+
+
+.culesDliongError {
+  .el-message-box__btns {
+    .el-button--primary {
+      background-color: #F56C6C;
+      border: none;
+    }
+  }
+
+  .el-message-box__content {
+    .el-icon-error {
+
+      margin-top: -23px;
+    }
+  }
+}
+
+/deep/.el-input {
+  .el-input__inner {
+    color: #c0c4cc !important;
+    border: 1px solid #d9dae4 !important;
+  }
+}
+
+.but_click:active {
+  background: #466EFF !important;
+}
+
+.but_hove:hover {
+  background: #4168f6 !important;
+  color: #fff;
+}
+
+.el-table {
+  color: #3C4353;
+}
+
+.el-button--text {
+  color: #4168f6;
+}
+
+.el-button--text:focus,
+.el-button--text:hover {
+  color: rgba(#4168f6, .85)
+}
+
+.el-switch__core {
+  background: #F5F6FA;
+  border-color: #F5F6FA;
+}
+
+.el-switch.is-checked .el-switch__core {
+  background: #4168f6;
+  border-color: #4168f6;
+}
+
+::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width: 5px;
+  /*高宽分别对应横竖滚动条的尺寸*/
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  border-radius: 5px;
+  background: #E7E8F0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  background: #fff;
+  border-radius: 5px;
+}
+
+/*自定义输入提示 联想 查询 input*/
+.kehuForm,
+.gongsiForm {
+  position: relative;
+}
+
+.kehuList,
+.GongsiList {
+  position: absolute;
+  top: 40px;
+  FONT-WEIGHT: 600;
+  width: 632px;
+  background: #ffffff;
+  padding: 12px;
+  border-radius: 3px;
+  /* cursor: pointer;*/
+  box-shadow: 2px 2px 4px 2px #c8d1db;
+  z-index: 100;
+}
+
+.kehuList li,
+.GongsiList li {
+  width: 608px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 400;
+  float: left;
+  /* border-bottom: #accbebd9 1px dashed; */
+  text-align: left;
+}
+
+/*.kehuList li:hover,.GongsiList li:hover{
+                    background: #fafbffd4;
+                    color: #838a9d;
+                    border-radius: 6px;
+}*/
+/*自定义输入提示 联想 查询 input*/
+
+// 主页token过期提示
+.mainMessage {
+  background: #E8F3FF;
+  border-color: #E8F3FF;
+
+  .el-icon-error {
+    color: #4168f6;
+  }
+
+  .el-message__content {
+    color: #4168f6;
+  }
+}
+
+.el-radio__input.is-checked .el-radio__inner {
+  border-color: @main;
+  background: @main
+}
+
+.el-radio__input.is-checked+.el-radio__label {
+  color: @main;
+}
+
+.txtCut (@line) {
+  display: -webkit-box;
+  -webkit-line-clamp: @line;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+}
+
+.one-line {
+  .txtCut(1);
+}
+
+.two-line {
+  .txtCut(2);
+}

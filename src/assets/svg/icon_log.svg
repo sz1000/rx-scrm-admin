@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>跟进记录</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-pc首页" transform="translate(-1064.000000, -364.000000)">
+            <g id="编组-16" transform="translate(1048.000000, 72.000000)">
+                <g id="编组-14" transform="translate(0.000000, 276.000000)">
+                    <g id="跟进记录" transform="translate(16.000000, 16.000000)">
+                        <circle id="椭圆形备份" fill="#EBF0FD" cx="11" cy="11" r="11"></circle>
+                        <g id="icon_repair1" transform="translate(6.233333, 6.233333)" stroke="#4168F6" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.1">
+                            <line x1="2.91296296" y1="2.31891892" x2="6.09074074" y2="2.31891892" id="路径"></line>
+                            <line x1="4.50185185" y1="5.92612613" x2="4.50185185" y2="2.57657658" id="路径"></line>
+                            <path d="M3.74524944,9.53333333 L0.52962963,9.53333333 C0.23712313,9.53333333 0,9.30262667 0,9.01801802 L0,0.515315315 C0,0.230714396 0.23712313,0 0.52962963,0 L9.0037037,0 C9.29621815,0 9.53333333,0.230714396 9.53333333,0.515315315 L9.53333333,3.01889748" id="路径"></path>
+                            <polygon id="路径" points="5.56111111 8.5027027 8.34166667 4.76666667 9.53333333 5.66846847 6.62037037 9.53333333 5.56111111 9.53333333"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

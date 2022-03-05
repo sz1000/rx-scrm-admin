@@ -1,0 +1,288 @@
+.content-box {
+  min-height: 100%;
+  padding: 0 16px 16px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.checkedTab {
+  padding-top: 16px;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: calc(~'100% - 223px');
+    height: 1px;
+    background: #d9dae4;
+    bottom: 0;
+    left: 223px;
+  }
+
+  .active {
+    color: #4168f6;
+    background: #fff;
+    border-bottom: none;
+  }
+
+  span {
+    cursor: pointer;
+    font-size: 14px;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 6px 16px;
+    background: #fafbff;
+    border: 1px solid #d9dae4;
+    border-radius: 6px 6px 0 0;
+    margin-right: 16px;
+  }
+}
+
+.add-btn {
+  width: 76px;
+  height: 32px;
+  margin: 16px;
+  line-height: 32px;
+  border-radius: 4px;
+  border: 1px solid #4168f6;
+  background: rgba(65, 104, 246, 0.04);
+  text-align: center;
+  color: #4168f6;
+  float: right;
+  position: relative;
+
+  img {
+    width: 12px;
+    height: 12px;
+  }
+
+  .add-btns {
+    padding: 16px 0;
+    box-shadow: 0 1px 8px 0 #eee;
+    border-radius: 4px;
+    background-color: #fff;
+    text-align: left;
+    z-index: 9;
+    position: absolute;
+    top: 38px;
+    right: 0;
+
+    .item {
+      padding: 0 16px;
+      white-space: nowrap;
+      font-size: 14px;
+      color: #3C4353;
+
+      &:hover {
+        background-color: #F4F6FE;
+      }
+    }
+  }
+}
+
+.table-warp {
+  padding: 16px 0;
+
+  /deep/.el-table thead {
+    color: #3c4353;
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+  }
+
+  .el-table {
+    color: #3c4353;
+
+    &::before {
+      width: 0;
+    }
+  }
+
+  .table_txt {
+    display: inline-block;
+    margin-right: 8px;
+    color: #4168f6;
+    cursor: pointer;
+  }
+
+  /deep/.el-table tbody tr:hover>td {
+    background-color: #f4f6fe;
+  }
+
+  /deep/.el-table__empty-block {
+    display: none !important;
+  }
+
+  .info {
+    display: flex;
+    align-items: center;
+
+    .avatar {
+      width: 40px;
+      height: 40px;
+      position: relative;
+      text-align: center;
+
+      &.bg {
+        background: @main;
+        // border-radius: 50%;
+      }
+
+      // span {
+      //   display: block;
+      //   color: @white;
+      //   line-height: 24px;
+      // }
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+    }
+
+    .avatar_user {
+      width: 22px;
+      height: 22px;
+      position: relative;
+      text-align: center;
+
+      &.bguser {
+        background: @main;
+        border-radius: 50%;
+      }
+
+      span {
+        display: block;
+        color: @white;
+        line-height: 24px;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+      }
+
+
+    }
+
+    .name {
+      max-width: calc(100% - 30px);
+      margin-left: 4px;
+      font-size: 14px;
+      line-height: 20px;
+      color: @fontMain;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .green {
+      font-size: 10px;
+      display: inline-block;
+      color: #52bd94;
+      margin-right: 8px;
+      margin-left: 4px;
+    }
+
+    .yellow {
+      font-size: 10px;
+      display: inline-block;
+      color: #ffb020;
+      margin-right: 8px;
+      margin-left: 4px;
+    }
+  }
+
+  .newClues {
+    font-size: 10px;
+    border: 1px solid #fb8f28;
+    /* no */
+    color: #fb8f28;
+    padding: 1px 10px;
+    border-radius: 4px;
+  }
+
+  .clues {
+    font-size: 10px;
+    border: 1px solid #55a7fe;
+    /* no */
+    color: #55a7fe;
+    padding: 1px 10px;
+    border-radius: 4px;
+  }
+
+  .customer {
+    font-size: 10px;
+    border: 1px solid #4168f6;
+    /* no */
+    color: #4168f6;
+    padding: 1px 10px;
+    border-radius: 4px;
+  }
+}
+
+.search_warp {
+  // line-height: 64px;
+  margin: 16px 0;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #3c4353;
+  font-size: 14px;
+
+  .item {
+    display: inline-block;
+    vertical-align: middle;
+
+    &:not(:last-child) {
+      margin-right: 32px;
+    }
+
+    span {
+      display: inline-block;
+    }
+
+    .label {
+      width: 60px;
+      text-align: center;
+    }
+
+    .value {
+      min-width: 200px;
+    }
+
+  }
+
+  .btns {
+    display: inline-block;
+    // width: 145px;
+
+    .item_btn {
+      margin: 0;
+
+      &:first-child {
+        margin: 0 16px 0 0;
+      }
+    }
+  }
+}
+
+.tab_warp {
+  span {
+    display: inline-block;
+    border: 1px solid #e6e6e6;
+    padding: 7px 12px;
+    border-radius: 16px;
+    font-size: 14px;
+    cursor: pointer;
+
+    &:not(:last-child) {
+      margin-right: 16px;
+    }
+  }
+
+  .active {
+    color: @main;
+    border-color: @main;
+  }
+}

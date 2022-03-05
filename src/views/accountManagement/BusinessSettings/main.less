@@ -1,0 +1,105 @@
+.content-box {
+    min-height: 100vh;
+    border-radius: 8px;
+    background-color: #fff;
+}
+.table-warp {
+    padding: 16px;
+    .plank {
+        width: 100%;
+        height: 16px;
+    }
+    .tip {
+        padding: 0 0 0 12px;
+        color: #3C4353;
+        position: relative;
+        &::before {
+            content: '';
+            width: 14px;
+            height: 14px;
+            background: url('../../../assets/images/icon_time.png') no-repeat;
+            background-size: 100%;
+            position: absolute;
+            left: -5px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    .end-tip {
+        &::before {
+            width: 8px;
+            height: 8px;
+            background: #4168F6;
+            border-radius: 50%;
+            left: -4px;
+        }
+    }
+    /deep/.el-table thead {
+        color: #3c4353;
+        font-family: PingFangSC-Medium;
+        font-size: 14px;
+    }
+    .el-table {
+        padding: 20px 0 0 12px;
+        color: #3c4353;
+        &::before {
+            width: 0;
+        }
+    }
+    .table_txt {
+        display: inline-block;
+        margin-right: 20px;
+        color: #3C4353;
+        cursor: pointer;
+    }
+    .edit {
+        padding-left: 18px;
+        position: relative;
+        &::before {
+            content: '';
+            width: 14px;
+            height: 14px;
+            background: url('../../../assets/images/icon_edit1.png') no-repeat;
+            background-size: 100%;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    .switch-btn {
+        .text {
+            margin-left: 4px;
+        }
+    }
+    /deep/.el-table tbody tr:hover > td {
+        background-color: #f4f6fe;
+    }
+    /deep/.el-table__empty-block {
+        display: none !important;
+    }
+}
+
+.opportunity-stage {
+    .table-warp {
+        padding: 0 16px;
+        .el-table{
+            padding: 16px 10px 40px;
+            position: relative;
+            /deep/ .el-table__fixed-right {
+                top: 16px;
+            }
+        }
+        .top-table {
+            &::before {
+                content: '';
+                width: 1px;
+                height: 100%;
+                border-left: 1px dotted #A2A5B4;
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+        }
+    }
+}

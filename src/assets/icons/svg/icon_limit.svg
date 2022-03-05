@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_limit</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-企业信息" transform="translate(-20.000000, -109.000000)">
+            <g id="角色权限" transform="translate(0.000000, 96.000000)">
+                <g id="icon_limit" transform="translate(20.000000, 13.000000)">
+                    <rect id="矩形" x="0" y="0" width="14" height="14"></rect>
+                    <g id="编组-29" transform="translate(1.000000, 2.000000)" stroke="#A2A5B4" stroke-linecap="round" stroke-width="1.199997">
+                        <path d="M4.799988,0 L0.5999985,0 C0.268628328,0 -8.9832903e-14,0.26862 -8.9832903e-14,0.6 L-8.9832903e-14,8.4 C-8.9832903e-14,8.73138 0.268628328,9 0.5999985,9 L11.3999715,9 C11.7313507,9 11.99997,8.73138 11.99997,8.4 L11.99997,7.65" id="路径" stroke-linejoin="round"></path>
+                        <line x1="1.7999955" y1="3.9" x2="4.1999895" y2="3.9" id="路径"></line>
+                        <line x1="1.7999955" y1="6.3" x2="8.9999775" y2="6.3" id="路径"></line>
+                        <ellipse id="椭圆形" fill="#A2A5B4" fill-rule="nonzero" stroke-linejoin="round" cx="8.9999775" cy="1.8" rx="1.7999955" ry="1.8"></ellipse>
+                        <path d="M12,5.52561 C11.4140415,4.38069 10.1999745,3.6 8.9999775,3.6 C7.7999805,3.6 7.20211199,3.93987 6.58507354,4.5" id="路径" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

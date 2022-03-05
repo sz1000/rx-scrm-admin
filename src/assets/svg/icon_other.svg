@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>其他</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-pc首页" transform="translate(-1064.000000, -640.000000)">
+            <g id="编组-16" transform="translate(1048.000000, 72.000000)">
+                <g id="编组-15" transform="translate(0.000000, 552.000000)">
+                    <g id="其他" transform="translate(16.000000, 16.000000)">
+                        <g id="椭圆形备份-2" fill="#FEF7E5">
+                            <circle id="椭圆形备份" cx="11" cy="11" r="11"></circle>
+                        </g>
+                        <g id="其他_other" transform="translate(4.400000, 4.400000)">
+                            <rect id="矩形" fill-opacity="0.01" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="13.2" height="13.2"></rect>
+                            <path d="M6.269725,1.15527775 L1.21390775,6.211095 C0.99912175,6.42587 0.999119,6.77413 1.21390775,6.988905 L6.269725,12.044725 C6.4845,12.2595 6.83276,12.2595 7.047535,12.044725 L12.103355,6.988905 C12.31813,6.77413 12.31813,6.42587 12.103355,6.211095 L7.047535,1.15527775 C6.83276,0.940489 6.4845,0.940489 6.269725,1.15527775 Z" id="路径" stroke="#FB8F28" stroke-width="1.1" stroke-linejoin="round"></path>
+                            <line x1="4.95" y1="6.6" x2="8.25" y2="6.6" id="路径" stroke="#FB8F28" stroke-width="1.1" stroke-linecap="round"></line>
+                            <line x1="6.6" y1="4.95" x2="6.6" y2="8.25" id="路径" stroke="#FB8F28" stroke-width="1.1" stroke-linecap="round"></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

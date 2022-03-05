@@ -1,0 +1,42 @@
+/deep/ .el-dialog{
+    border-radius: 8px;
+    overflow: hidden;
+    .el-dialog__header {
+        padding: 14px 16px;
+        background-color: @dialogBg;
+        border-bottom: 1px solid @dialogBg;
+        .el-dialog__title {
+            font-size: 16px;
+        }
+    }
+    .el-dialog__body {
+        min-height: 185px;
+        padding: 32px 16px;
+        .el-form-item {
+            margin-bottom: 20px;
+            .el-form-item__label {
+                font-weight: 500;
+            }
+        }
+        .el-input, .el-select {
+            width: 86%;
+            .el-input__icon {
+                line-height: 32px;
+            }
+        }
+
+        .el-checkbox .el-checkbox__label, .el-radio .el-radio__label {
+            font-family: PingFangSC-Regular;
+            color: @fontMain;
+            letter-spacing: 0;
+        }
+    }
+    .el-dialog__footer {
+        padding: 16px;
+        border-top: 1px solid @lineColor;
+        .el-button {
+            height: 32px;
+            padding: 0 16px;
+        }
+    }
+}

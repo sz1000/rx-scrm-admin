@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>全部动态</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-pc首页" transform="translate(-1064.000000, -88.000000)">
+            <g id="编组-16" transform="translate(1048.000000, 72.000000)">
+                <g id="全部动态" transform="translate(16.000000, 16.000000)">
+                    <circle id="椭圆形备份" fill="#FFE7EB" cx="11" cy="11" r="11"></circle>
+                    <g id="编组-3" transform="translate(5.500000, 5.500000)" stroke="#D14343" stroke-linecap="round" stroke-width="1.1">
+                        <path d="M2.57417884,9.72740161 C3.44372884,10.3367779 4.50301534,10.6944444 5.64594607,10.6944444 C8.60290841,10.6944444 11,8.30041151 11,5.34722222 C11,2.39403294 8.60290841,0 5.64594607,0 C3.47359666,0 1.60342017,1.29210527 0.763888889,3.14877306" id="路径"></path>
+                        <g id="编组" transform="translate(-0.000000, 3.819444)" stroke-linejoin="round">
+                            <polyline id="P" points="-2.67252417e-14 3.36111111 2.24074074 1.12037037 4.48148148 3.36111111 7.60251323 0.240079365"></polyline>
+                            <polyline id="R" points="5.92195767 2.84311081e-16 7.84259259 2.84311081e-16 7.84259259 1.92063492"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

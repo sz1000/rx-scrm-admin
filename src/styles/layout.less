@@ -1,0 +1,73 @@
+// html,
+// body {
+//   min-height: 100%;
+//   min-width: 1200px;
+// }
+
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: @placeholder;
+  font-weight: normal;
+}
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: @placeholder;
+  font-weight: normal;
+}
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: @placeholder;
+  font-weight: normal;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: @placeholder;
+  font-weight: normal;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+#nprogress .bar {
+  background: @main  !important;
+}
+
+.dialog_wrap{
+  .el-dialog{
+    border-radius: 8px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    max-height: 80%;
+    margin: 0!important;
+    .el-dialog__header{
+      padding: 14px 16px;
+      background: @dialogBg;
+      border-bottom: 1px solid @lineColor;
+      position: relative;
+    }
+    .el-dialog__title{
+      font-size: 16px;
+      line-height: 22px;
+      color: @fontMain;
+    }
+    .el-dialog__headerbtn{
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .el-dialog__body{
+      padding: 0;
+    }
+  }
+} 
